@@ -91,7 +91,9 @@ def imap_receive(hostname='imap.163.com',username='yourname@163.com',passwd='you
 			
 
 			mail_content = mail_content.decode('utf-8')  # decode the message
-
+			
+			# NOTE: YOU NEED TO PRINT THE RECEIVED MESSAGE TO MANUALLY FIND WHERE THE EMAIL BODY IS
+			
 			dir1 = re.search('<div>',mail_content).span()[1]    # locate the first <div>
 
 			dir2 = re.search('</div>',mail_content).span()[0]   # locate the first </div>
