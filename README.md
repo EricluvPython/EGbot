@@ -9,3 +9,5 @@ Dependencies are different depending on OS and python version. In most cases, ``
 The project was run on Ubuntu 18.0.4 LTS and python3.6.9. The default used server is 163.com (because the encryption isn't overly complicated). To run it, clone this repo and go to the root directory of the project and run ```./EGbot.sh``` in terminal.
 
 Enjoy and feel free to send me qusetions and suggestions!
+
+IMPORTANT: DO NOT USE IT FOR COMMERCIAL OR ILLEGAL PURPOSES!
