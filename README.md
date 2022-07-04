@@ -6,6 +6,6 @@ EGbot (Eric Gao's bot or Email Greetings bot) is a Linux-based project that func
 
 Dependencies are different depending on OS and python version. In most cases, ```chatterbot```, ```chatterbot_corpus```, and ```imapclient``` are needed.
 
-The project was run on Ubuntu 18 LTS and python3.6.9. The default used server is 163.com (a Chinese one, because the encryption isn't overly complicated). To run it, clone this repo and go to the root directory of the project and run ```./EGbot.py``` in terminal.
+The project was run on Ubuntu 18.0.4 LTS and python3.6.9. The default used server is 163.com (because the encryption isn't overly complicated). To run it, clone this repo and go to the root directory of the project and run ```./EGbot.sh``` in terminal.
 
 Enjoy and feel free to send me qusetions and suggestions!
